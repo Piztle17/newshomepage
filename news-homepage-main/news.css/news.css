@@ -70,6 +70,12 @@ h3   {
 .h1hd  {
   color: gray;
 }
+.readmore  {
+  width: 38%;
+    padding: 14px;
+    background-color: hsl(240, 100%, 5%);
+    color: white;
+}
 @media only screen and (max-width: 780px) {
     div.news .topnews, .newsunderimg, .downnews, .retro .smallimage{
       width: 100%;
