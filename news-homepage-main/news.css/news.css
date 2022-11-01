@@ -1,0 +1,98 @@
+*  {
+    box-sizing: border-box;
+}
+body  {
+  font-family: 'Inter', sans-serif;
+}
+a   {
+    color: black;
+    text-decoration: none;
+}
+.topnews  {
+    max-width: 100%;
+    display: flex;
+    gap: 8px;
+}
+.imagenews  {
+    width: 70%;
+}
+.new  {
+    width: 25%;
+    height: auto;
+    background-color: black;
+}
+h3   {
+    color: hsl(35, 77%, 62%);
+}
+.h1new  {
+  color: hsl(35, 77%, 62%);
+}
+.h3hd  {
+  color: white;
+}
+.topnews > P{
+    color: gray;
+}
+.newsimage  {
+    width: 100%;
+    height: auto;
+}
+.newsunderimg   {
+    display: flex;
+}
+.news  {
+    max-width: 90%;
+    margin: auto;
+    margin-top: 10px;
+}
+.downnews   {
+    display: inline-flex;
+    margin-top: 70px;
+}
+.retro  {
+    display: flex;
+}
+.smallimage  {
+     height: 150px;
+     width: 150px;
+}
+.retro01  {
+    margin: 9px;
+    margin-top: -5px;
+    width: 100%;
+}
+.down2  {
+    padding: 10px;
+}
+.web3  {
+   font-weight: 900; 
+}
+.h1hd  {
+  color: gray;
+}
+@media only screen and (max-width: 780px) {
+    div.news .topnews, .newsunderimg, .downnews, .retro .smallimage{
+      width: 100%;
+      height: auto;
+      flex-direction: column;
+    }
+  }
+  @media only screen and (max-width: 780px) {
+    div.new, .imagenews{
+      width: 100%;
+      height: auto;
+    }
+  }
+  @media only screen and (max-width: 780px) {
+    div.retro{
+      width: 100%;
+      height: auto;
+      margin-top: 10px;
+    }
+  }
+  @media only screen and (max-width: 780px) {
+    div.smallimage{
+      width: 100%;
+      height: 50px;
+    }
+  }
